@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        lable 'Devops-slave-1'
+        label 'Devops-slave-1'
     }
 
     stages {
