@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        lable 'qa'
+        lable 'Devops-slave-1'
     }
 
     stages {
