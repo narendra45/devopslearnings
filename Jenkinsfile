@@ -1,5 +1,7 @@
 pipeline {
-    agent any
+    agent {
+        lable 'qa'
+    }
 
     stages {
         stage('Build') {
